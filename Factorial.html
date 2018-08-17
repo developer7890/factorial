@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <p id="display"></p>
+  </body>
+  <script>
+    var fact=10,m=fact;
+    for(var i=(fact-1);i>0;i--){
+      fact=fact*i;
+    }
+    $("#display").html("the factorial of "+m+" is: "+fact);
+   </script>
+</html>
